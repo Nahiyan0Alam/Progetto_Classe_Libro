@@ -25,7 +25,6 @@ class Book:
     def toString(self):
         return "Anno: " + self.year + ", Autore: " + self.author
 
-# Testing the class with different book data
 book_instance = Book("La divina commedia", "1320", "Dante Alighieri")
 print(book_instance.toString())
 print(book_instance.get_title())
